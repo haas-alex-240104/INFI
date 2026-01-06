@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS ordersfrom1997 FROM Orders WHERE OrderDate >= '1997-01-01';

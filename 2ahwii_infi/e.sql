@@ -1,0 +1,1 @@
+SELECT ProductName, Price FROM Products WHERE Price = (SELECT MIN(Price) FROM Products) OR Price = (SELECT MAX(Price) FROM Products) ORDER BY ProductName;

@@ -1,0 +1,1 @@
+SELECT n1.id FROM numbers n1 JOIN numbers n2 ON n2.id = n1.id + 2 WHERE n1.id BETWEEN 500 AND 600;

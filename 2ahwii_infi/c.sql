@@ -1,0 +1,1 @@
+SELECT FirstName, LastName FROM Employees ORDER BY BirthDate DESC LIMIT 1;

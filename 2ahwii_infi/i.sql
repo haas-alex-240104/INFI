@@ -1,0 +1,1 @@
+INSERT INTO aussagen (quote, author, ranking) VALUES ('Mein Eigenes Lieblingszitat... =)', 'Alex Haas', 5);
