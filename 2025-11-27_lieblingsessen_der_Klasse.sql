@@ -1,0 +1,1 @@
+sqlite> select a.name, b.essen from person a join essen b on a.id_lieblingsessen = b.id;.mod
