@@ -25,7 +25,7 @@ entity Exemplar {
 entity Ausleihe {
     ausleiheId: int key
     ausleihdatum: date
-    rueckgabedatum: date?
+    rueckgabedatum: date
     mitarbeiterId: int
     exemplarId: int
 }
@@ -40,5 +40,5 @@ relationship HatExemplar {
 }
 
 relationship WirdAusgeliehen {
-    Exemplar[0,1] -> Ausleihe[N]
+    Exemplar[0..1] -> Ausleihe[N]
 }
